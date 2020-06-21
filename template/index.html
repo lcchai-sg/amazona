@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <title>Tick Green</title>
+</head>
+
+<body>
+  <div class="grid-container">
+    <header class="header">
+      <div class="brand">
+        <button onClick="openMenu()">
+          &#9776;
+        </button>
+        <a href="index.html">Tick Green</a>
+      </div>
+      <div class="header-links">
+        <a href="cart.html">Cart</a>
+        <a href="login.html">Login</a>
+      </div>
+    </header>
+    <aside class="sidebar">
+      <h3 class="sidebar-h3">Shopping Categories</h3>
+      <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+      <ul>
+        <li>
+          <a href="index.html">Shirts</a>
+        </li>
+        <li>
+          <a href="index.html">Pants</a>
+        </li>
+        <li>
+          <a href="index.html">Bermudas</a>
+        </li>
+        <li>
+          <a href="index.html">Shoes</a>
+        </li>
+        <li>
+          <a href="index.html">Belts</a>
+        </li>
+      </ul>
+    </aside>
+    <main class="main">
+      <div class="content">
+        <ul class="products">
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/d1.jpeg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Nike Swoosh Crop T-Shirt</div></a>
+              <div class="product-brand">Nike</div>
+              <div class="product-price">$34.90</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/d2.jpeg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Nike Boyfriend T-Shirt</div></a>
+              <div class="product-brand">Nike</div>
+              <div class="product-price">$34.90</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/d3.jpeg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Nike Swoosh Crop Top</div></a>
+              <div class="product-brand">Nike</div>
+              <div class="product-price">$49.90</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/d4.jpeg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Nike Air Crop T-Shirt</div></a>
+              <div class="product-brand">Nike</div>
+              <div class="product-price">$34.90</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/d5.jpeg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Nike Air T-Shirt</div></a>
+              <div class="product-brand">Nike</div>
+              <div class="product-price">$34.90</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/d1.jpeg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Nike Swoosh Crop T-Shirt</div></a>
+              <div class="product-brand">Nike</div>
+              <div class="product-price">$34.90</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/d2.jpeg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Nike Boyfriend T-Shirt</div></a>
+              <div class="product-brand">Nike</div>
+              <div class="product-price">$34.90</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/d3.jpeg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Nike Swoosh Crop Top</div></a>
+              <div class="product-brand">Nike</div>
+              <div class="product-price">$49.90</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/d4.jpeg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Nike Air Crop T-Shirt</div></a>
+              <div class="product-brand">Nike</div>
+              <div class="product-price">$34.90</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/d5.jpeg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Nike Air T-Shirt</div></a>
+              <div class="product-brand">Nike</div>
+              <div class="product-price">$34.90</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer class="footer">
+      All rights reserved.
+    </footer>
+  </div>
+  <script>
+    function openMenu() {
+      document.querySelector(".sidebar").classList.add("open");
+    }
+    function closeMenu() {
+      document.querySelector(".sidebar").classList.remove("open");
+    }
+  </script>
+</body>
+
+</html>
